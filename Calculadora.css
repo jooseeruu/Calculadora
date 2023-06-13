@@ -1,0 +1,65 @@
+/* Establece el fondo del cuerpo de la página con un gradiente radial */
+body {
+    background: radial-gradient(circle at top left, #000000, #79e2d1, #3c646b);
+}
+
+/* Establece el ancho y centrado del contenedor de la calculadora */
+body div.calculator {
+	text-align: center;
+	width: 214px;
+	margin: 0 auto;
+}
+
+/* Establece el ancho y alto de los botones y el margen superior e inferior */
+div input[type='button'], button {
+	width: 50px;
+	height: 50px;
+	margin: 2px 0;
+}
+
+/* Establece el ancho, alto, color de fondo y otros estilos para el campo de texto */
+div input[type="text"] {
+	height: 50px;
+	width: 100%;
+	background-color: #999;
+	color: #000000;
+	padding: 12px 20px;
+    margin-top: 100px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #777;
+}
+
+/* Establece el ancho y alto para los botones de resultado y limpiar */
+div.results input, div.results button {
+	height: 50px;
+	width: 104px;
+}
+
+/* Establece el color de fondo y borde para el botón de limpiar */
+div.results button {
+	background-color: red;
+	color: #000000;
+	border: 1px solid red;
+}
+
+/* Establece el color de fondo y borde para el botón de resultado */
+div.results input {
+	background-color: #fdec02;
+	color: #000000;
+	border: 1px solid #fdd702;
+}
+
+/* Establece el color de fondo, borde y tamaño de fuente para los botones de operaciones */
+#plus, #minus, #by, #devide, #percent {
+	background-color: rgb(0, 255, 0);
+	color: #000000;
+	border: 1px solid rgb(0, 255, 0);
+	font-size: 16px;
+}
+
+/* Establece una transformación para los botones cuando están activos */
+div input[type='button']:active, button:active {
+    transform: scale(0.95);
+}
