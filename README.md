@@ -8,4 +8,4 @@ Para usar esta calculadora, simplemente descarga los archivos `Calculadora.html`
 
 ## Uso
 
-Para usar la calculadora, simplemente haz clic en los botones para ingresar los números y operaciones. Haz clic en el botón `=` para calcular el resultado. Haz clic en el botón `Clear` para limpiar el campo de texto.
+Haz clic en los botones para ingresar los números y operaciones. Haz clic en el botón `=` para calcular el resultado. Haz clic en el botón `Clear` para limpiar el campo de texto.
